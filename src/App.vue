@@ -1,11 +1,13 @@
 <script setup>
-import Navbar from '@/components/Navbar.vue';
+import CompNavbar from "@/components/CompNavbar.vue";
+import CountriesList from "@/components/CountriesList.vue";
+import CountryDetails from "@/components/CountryDetails.vue";
 </script>
 
 <template>
-  <div class="app">
-    <Navbar />
-  </div>
+  <CompNavbar />
+  <CountriesList />
+  <CountryDetails />
 </template>
 
-<style></style>
+<style scoped></style>
